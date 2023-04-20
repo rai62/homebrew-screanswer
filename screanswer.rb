@@ -11,7 +11,7 @@ class Screanswer < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/rai62/screanswer/releases/download/v1.0.4/screanswer_Darwin_arm64.tar.gz"
-      sha256 "b14a68e48f07f2279fe6d3b4f00bd368fd572067ec373982e9bc5eeceaabc04e"
+      sha256 "5f06ca6428950905ddbc4f682ee32c134e2e21bedb430a50f0a3812e9ff72382"
 
       def install
         bin.install "screanswer"
@@ -19,7 +19,7 @@ class Screanswer < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/rai62/screanswer/releases/download/v1.0.4/screanswer_Darwin_x86_64.tar.gz"
-      sha256 "20cad1e57721a9a2c3fcb77736d79226f4edb789e5ee1e4672aea0f5aa6a1250"
+      sha256 "03e0c5db9fab4dd18f29d86d10da7c67c1ab46b8f4fe4f9a1008d1febd4e1605"
 
       def install
         bin.install "screanswer"
