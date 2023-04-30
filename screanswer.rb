@@ -5,21 +5,21 @@
 class Screanswer < Formula
   desc "screanswer is a command line tool to answer text on the screen."
   homepage ""
-  version "1.0.5"
+  version "1.0.6"
   depends_on :macos
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rai62/screanswer/releases/download/v1.0.5/screanswer_Darwin_arm64.tar.gz"
-      sha256 "064b9a7c0766473a12fc5a19834bfab0d77ff6fbecd3747c626ddc1ad43cb7e9"
+      url "https://github.com/rai62/screanswer/releases/download/v1.0.6/screanswer_Darwin_arm64.tar.gz"
+      sha256 "194da2491f2466cf9f2ce24f2b3be4950adadbc0552645af9ee37ada4462e8ea"
 
       def install
         bin.install "screanswer"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/rai62/screanswer/releases/download/v1.0.5/screanswer_Darwin_x86_64.tar.gz"
-      sha256 "ec9a43a6ad4a40240f8f40d721fd55eb96f458467488feceda6a55941485987a"
+      url "https://github.com/rai62/screanswer/releases/download/v1.0.6/screanswer_Darwin_x86_64.tar.gz"
+      sha256 "ab5bf676b9bffe780fdcc1b7f486681c26e979b88fcf14bd44e20f79c9b93ac7"
 
       def install
         bin.install "screanswer"
